@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercise 1 – Process a Form</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body class="container">
+    <p><a href="/">Link to Start Page</a></p>
+    <h2>Diya's Sample Form</h2>
+    <form method="POST" action="/process-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <fieldset style="border: none; padding-left: 0;">
+        <legend>Payment Type:</legend>
+        <label><input type="radio" name="payment" value="cash" /> Cash</label>
+        <label><input type="radio" name="payment" value="credit" /> Credit Card</label>
+        <label><input type="radio" name="payment" value="gpay" /> Google Pay</label>
+        <label><input type="radio" name="payment" value="applepay" /> Apple Pay</label>
+      </fieldset>
+
+      <label><input type="checkbox" name="promo" /> Sign me up for special promotions</label>
+
+      <label for="location">Preferred Location:</label>
+      <select name="location" id="location">
+        <option>Orange County</option>
+        <option>Los Angeles</option>
+        <option>San Diego</option>
+      </select>
+
+      <p>
+        <input type="submit" value="Submit" />
+        <button type="reset">Cancel</button>
+      </p>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+
+body { font-family: system-ui, Arial, sans-serif; margin: 0; padding: 0; background: #fafafa; }
+.container { max-width: 800px; margin: 40px auto; padding: 20px; background: white; border: 1px solid #eee; border-radius: 8px; }
+h1, h2 { margin-top: 0; }
+label { display:block; margin: 8px 0 4px; }
+input[type=text], input[type=email], textarea, select {
+  width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;
+}
+button, input[type=submit] { padding: 8px 14px; border: none; border-radius: 6px; background: #2d6cdf; color: #fff; cursor: pointer; }
+button:hover, input[type=submit]:hover { filter: brightness(0.95); }
+code, pre { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+.links a { display:block; margin: 8px 0; }
+.small { font-size: 0.9rem; color: #555; }

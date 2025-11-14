@@ -1,0 +1,1 @@
+// (Optional) Client JS for Exercise 1. Not required for the simple server-side confirmation.
